@@ -55,7 +55,7 @@
         </Grid.RowDefinitions>
 
         <GroupBox Grid.Row="0" Header="その他設定">
-            <CheckBox Content="起動したら CeVIO AI を音声認識終了時に同時に終了する"
+            <CheckBox Content="起動した CeVIO AI を音声認識終了時に同時に終了する"
                       x:Name="CheckBox"/>
         </GroupBox>
 
