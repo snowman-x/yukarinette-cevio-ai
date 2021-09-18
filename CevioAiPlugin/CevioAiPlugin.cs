@@ -151,6 +151,8 @@ namespace CevioAiPlugin
                     component.Value = emotion.Value;
                 }
 
+                text = text.Replace(" ", "").Replace("　", "");
+
                 var state = Talker.Speak(text);
                 state.Wait();
             }
